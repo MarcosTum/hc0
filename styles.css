@@ -1,0 +1,28 @@
+ *{
+            font-size: 12;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            background-color: rgba(236, 254, 255, 0.318);
+        }
+        .belleza{
+            color: rgba(5, 237, 245, 0.865);s
+            font-style: italic;
+            font-family: verdana;
+        }
+        .h14{
+            color: blue;
+        }
+        .pli{
+            color: rgb(55, 255, 0);
+        }
+        .redondeado {
+            border-radius: 10px;
+          }
+          .confondo {
+            background-color: #def;
+          }
+          .outlinenone {
+            outline: none;
+            background-color: #dfe;
+            border: 0;
+          }

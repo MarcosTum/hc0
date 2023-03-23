@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Uso de Formularios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="belleza">Pagina de Juegos</h2>
+    <main>
+        <h3>Adquirir juegos</h3>
+        <!--TODO: Agregar enlace a imagenes de gatos-->
+        <a href="#parrafo1">Definicion</a>
+        <a href="#parrafo2">Xbox</a>
+        <a href="#parrafo3">PlayStation</a>
+        <a href="#parrafo4">Switch</a>
+        <p>Haz click para ver <a href="https://www.instant-gaming.com/es/">descuentos de juegos.</p>
+        <img src="imagenes/ig.png" alt="Instant Gaming"></a>
+        <h3 id="parrafo1" class="belleza">Que son los juegos?</h3>
+        <p class="pli">Un videojuego o juego de video/vídeo es un juego electrónico en el que una o más jugadores interactúan por medio de un controlador, con un dispositivo electrónico que muestra imágenes de video.</p>
+        <h3 id="parrafo2" class="belleza">Xbox</h3>
+        <p class="pli">Xbox es una videoconsola doméstica y la primera entrega de la serie de videoconsolas Xbox fabricada por Microsoft. Salió a la venta como la primera incursión de Microsoft en el mercado de las consolas de videojuegos el 15 de noviembre de 2001 en Norteamérica, seguida de Australia, Europa y Japón en 2002.1​ Está clasificada como consola de sexta generación, compitiendo con la PlayStation 2 de Sony y la GameCube de Nintendo. También fue la primera gran consola producida por una empresa estadounidense desde el lanzamiento de la Atari Jaguar en 1993.</p>
+        <h3 id="parrafo3" class="belleza">PlayStation</h3>
+        <p class="pli">PlayStation (プレイステーション Pureisutēshon?, comúnmente abreviado como PS) es el nombre de una serie de consolas de videojuegos creadas y desarrolladas por Sony Interactive Entertainment. Han estado presentes en la quinta, sexta, séptima, octava y novena generación de videoconsolas, la compañía promotora está actualmente en el mercado con su PlayStation 5.
+        La marca se introdujo por primera vez el 3 de diciembre de 1994 en Japón1​ y ha desarrollado y publicado cinco videoconsolas de sobremesa, que incluyen un centro de medios de comunicación y un servicio en línea, posteriormente se introdujeron revistas y computadoras.</p>
+        <h3 id="parrafo4" class="belleza">Switch</h3>
+        <p class="pli">Nintendo Switch (ニンテンドー スイッチ Nintendō Suitchi?) es una consola de videojuegos desarrollada por Nintendo. Conocida en el desarrollo por su nombre código «NX», se dio a conocer en octubre de 2016 y fue lanzada mundialmente el 3 de marzo de 2017.
+        Nintendo considera a Switch una consola híbrida. Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor. Alternativamente, puede ser extraída de la base y utilizada de forma similar a una tableta a través de su pantalla táctil, o colocada sobre una superficie gracias a su soporte plástico integrado siendo así visible por varios jugadores.</p>
+        
+        <h4 class="h14">Los juegos mas jugados</h4>
+        <ul>
+            <li class="pli">World of Tanks</li>
+            <li class="pli">The Legend of Mir 3</li>
+            <li class="pli">League of Legends</li>
+        </ul>
+        <img src="" alt="Juegos">
+        <h4 class="h14">Los juegos mas pesados</h4>
+        <ol>
+            <li class="pli">Call of Duty Modern Warfare</li>
+            <li class="pli">Hitman 2</li>
+            <li class="pli">Microsoft Flight Simulator</li>
+        </ol>
+        <img src="imagenes/juegos.png" alt="juegos">
+    </main>
+
+    <form action="https://formsubmit.co/marquitosescalante30@gmail.com" method="POST">
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior" name="name">Xbox</label>
+        <br>
+        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior" name="name">PlayStation</label>
+        <br>
+        <label for="centro"><input id="centro" type="radio" name="interior-exterior" name="name">Switch</label>
+        <br>
+        <br>
+        <hr size="7" color="pink">
+        <label><input type="checkbox" name="name">Fantasia</label>
+        <label><input type="checkbox" name="name">Shooter</label>
+        <label><input type="checkbox" name="name">Peleas</label>
+        <hr size="7" color="blue">
+        <h1 class="h14">Ingrese su nombre</h1>
+        <input type="text" placeholder="Ingrese su nombre" required name="name" class="redondeado" class="cofondo"
+            class="outlinenone">
+        <h1 class="h14">Ingrese su apellido</h1>
+        <input type="text" placeholder="Ingrese su apellido" required name="name" class="redondeado" class="cofondo"
+            class="outlinenone">
+        <h1 class="h14">Ingrese su domicilio</h1>
+        <input type="text" placeholder="Ingrese su salario" required name="name" class="redondeado" class="cofondo"
+            class="outlinenone">
+        <button type="submit" class="redondeado" class="cofondo">Enviar</button>
+        <button type="reset" class="redondeado" class="cofondo" class="outlinenone">Vaciar</button>
+        <hr size="7" color="red">
+    </form>
+</body>
+</html>
